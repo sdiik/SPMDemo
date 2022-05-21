@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 
 @available(macOS 10.15, *)
-struct loginController: View {
-    var body: some View {
+public struct loginController: View {
+    public var body: some View {
         Text("This is body")
     }
 }
