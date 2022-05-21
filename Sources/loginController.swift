@@ -13,4 +13,6 @@ public struct loginController: View {
     public var body: some View {
         Text("This is body")
     }
+    public init() {
+    }
 }
