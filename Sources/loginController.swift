@@ -14,6 +14,8 @@ public struct loginView: View {
     @State private var name: String = ""
     @State private var password: String = ""
     
+    public init() {}
+    
     public var body: some View {
         ZStack {
             Color.blue
